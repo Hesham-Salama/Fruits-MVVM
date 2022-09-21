@@ -126,13 +126,13 @@
 				545BF4DA28CB77C00078A3B5 /* AppDelegate.swift */,
 				545BF4DC28CB77C00078A3B5 /* SceneDelegate.swift */,
 				545BF51728CB7CCF0078A3B5 /* FruitsDependencyContainer.swift */,
-				54DEF65228DBBE2B00C019F3 /* Extensions */,
-				54DEF64B28DBB17600C019F3 /* Service */,
-				545BF51B28CB7D010078A3B5 /* ViewModel */,
+				54DEF65E28DBD6BC00C019F3 /* Controller */,
+				54DEF65D28DBD6A300C019F3 /* ViewModel */,
+				54DEF65C28DBD69000C019F3 /* Extensions */,
+				54DEF65B28DBD67E00C019F3 /* Service */,
 				545BF50A28CB77D10078A3B5 /* Supporting Files */,
-				545BF50B28CB77DD0078A3B5 /* Controllers */,
 				545BF50C28CB77E60078A3B5 /* View */,
-				545BF51128CB78640078A3B5 /* Model */,
+				54DEF66028DBD6EB00C019F3 /* Model */,
 			);
 			path = Test2;
 			sourceTree = "<group>";
@@ -165,14 +165,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		545BF50B28CB77DD0078A3B5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				545BF51528CB7C6A0078A3B5 /* FruitsViewController.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 		545BF50C28CB77E60078A3B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,16 +175,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		545BF51128CB78640078A3B5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				545BF50D28CB78150078A3B5 /* Fruit.swift */,
-				545BF50F28CB78520078A3B5 /* Fruits.swift */,
-				54DEF64C28DBB19500C019F3 /* Repository */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		545BF51428CB7A600078A3B5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,38 +183,56 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
-		545BF51B28CB7D010078A3B5 /* ViewModel */ = {
+		54DEF65B28DBD67E00C019F3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				54DEF64D28DBBB8900C019F3 /* UIImageLoader.swift */,
+				545BF51C28CB81050078A3B5 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		54DEF65C28DBD69000C019F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54DEF65328DBBE3C00C019F3 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		54DEF65D28DBD6A300C019F3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				545BF51928CB7CFE0078A3B5 /* FruitsViewModel.swift */,
 			);
-			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		54DEF64B28DBB17600C019F3 /* Service */ = {
+		54DEF65E28DBD6BC00C019F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				545BF51C28CB81050078A3B5 /* NetworkService.swift */,
-				54DEF64D28DBBB8900C019F3 /* UIImageLoader.swift */,
+				545BF51528CB7C6A0078A3B5 /* FruitsViewController.swift */,
 			);
-			name = Service;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		54DEF64C28DBB19500C019F3 /* Repository */ = {
+		54DEF66028DBD6EB00C019F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				545BF50F28CB78520078A3B5 /* Fruits.swift */,
+				545BF50D28CB78150078A3B5 /* Fruit.swift */,
+				54DEF66128DBD6FC00C019F3 /* Repository */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54DEF66128DBD6FC00C019F3 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
 				545BF51E28CB83100078A3B5 /* FruitsDataRepository.swift */,
 				545BF52028CB83750078A3B5 /* FruitsDataRepositoryLiveImpl.swift */,
 			);
-			name = Repository;
-			sourceTree = "<group>";
-		};
-		54DEF65228DBBE2B00C019F3 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				54DEF65328DBBE3C00C019F3 /* UIImage+Extension.swift */,
-			);
-			name = Extensions;
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
