@@ -13,7 +13,6 @@ class FruitsViewModel {
     private let fruitsDataRepo: FruitsDataRepository
     @Published private(set) var fruits = [Fruit]()
     
-    
     init(fruitsDataRepo: FruitsDataRepository) {
         self.fruitsDataRepo = fruitsDataRepo
     }

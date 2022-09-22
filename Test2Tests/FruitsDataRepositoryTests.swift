@@ -1,15 +1,23 @@
 //
-//  Test2Tests.swift
+//  FruitsDataRepositoryTests.swift
 //  Test2Tests
 //
-//  Created by Hesham on 09/09/2022.
+//  Created by Hesham on 22/09/2022.
 //
 
 import XCTest
 @testable import Test2
 
-class Test2Tests: XCTestCase {
-    let fakeRepo = FruitsDataRepositoryFakeImpl()
+class FruitsDataRepositoryTests: XCTestCase {
+    private var fakeRepo: FruitsDataRepository!
+    
+    override func setUp() {
+        fakeRepo = FruitsDataRepositoryFakeImpl()
+    }
+    
+    override func tearDown() {
+        fakeRepo = nil
+    }
     
     func testFruitsCount() {
         fakeRepo.getFruits { result in
@@ -35,4 +43,5 @@ class Test2Tests: XCTestCase {
             }
         }
     }
+
 }

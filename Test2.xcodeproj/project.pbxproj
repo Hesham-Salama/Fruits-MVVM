@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5440675628DC9A2400E6DE4E /* FruitsDataRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440675528DC9A2400E6DE4E /* FruitsDataRepositoryTests.swift */; };
+		5440675A28DC9D2200E6DE4E /* FruitsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440675928DC9D2200E6DE4E /* FruitsViewModelTests.swift */; };
 		545BF4DB28CB77C00078A3B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF4DA28CB77C00078A3B5 /* AppDelegate.swift */; };
 		545BF4DD28CB77C00078A3B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF4DC28CB77C00078A3B5 /* SceneDelegate.swift */; };
 		545BF4E228CB77C00078A3B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545BF4E028CB77C00078A3B5 /* Main.storyboard */; };
 		545BF4E428CB77C30078A3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545BF4E328CB77C30078A3B5 /* Assets.xcassets */; };
 		545BF4E728CB77C30078A3B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545BF4E528CB77C30078A3B5 /* LaunchScreen.storyboard */; };
-		545BF4F228CB77C30078A3B5 /* Test2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF4F128CB77C30078A3B5 /* Test2Tests.swift */; };
 		545BF4FC28CB77C30078A3B5 /* Test2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF4FB28CB77C30078A3B5 /* Test2UITests.swift */; };
 		545BF4FE28CB77C30078A3B5 /* Test2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF4FD28CB77C30078A3B5 /* Test2UITestsLaunchTests.swift */; };
 		545BF50E28CB78150078A3B5 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545BF50D28CB78150078A3B5 /* Fruit.swift */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5440675528DC9A2400E6DE4E /* FruitsDataRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsDataRepositoryTests.swift; sourceTree = "<group>"; };
+		5440675928DC9D2200E6DE4E /* FruitsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModelTests.swift; sourceTree = "<group>"; };
 		545BF4D728CB77C00078A3B5 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545BF4DA28CB77C00078A3B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		545BF4DC28CB77C00078A3B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +59,6 @@
 		545BF4E628CB77C30078A3B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		545BF4E828CB77C30078A3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545BF4ED28CB77C30078A3B5 /* Test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		545BF4F128CB77C30078A3B5 /* Test2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2Tests.swift; sourceTree = "<group>"; };
 		545BF4F728CB77C30078A3B5 /* Test2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		545BF4FB28CB77C30078A3B5 /* Test2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2UITests.swift; sourceTree = "<group>"; };
 		545BF4FD28CB77C30078A3B5 /* Test2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -140,7 +142,8 @@
 		545BF4F028CB77C30078A3B5 /* Test2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				545BF4F128CB77C30078A3B5 /* Test2Tests.swift */,
+				5440675528DC9A2400E6DE4E /* FruitsDataRepositoryTests.swift */,
+				5440675928DC9D2200E6DE4E /* FruitsViewModelTests.swift */,
 				54DEF65528DBCED200C019F3 /* FruitsDataRepositoryFakeImpl.swift */,
 			);
 			path = Test2Tests;
@@ -387,7 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545BF4F228CB77C30078A3B5 /* Test2Tests.swift in Sources */,
+				5440675A28DC9D2200E6DE4E /* FruitsViewModelTests.swift in Sources */,
+				5440675628DC9A2400E6DE4E /* FruitsDataRepositoryTests.swift in Sources */,
 				54DEF65628DBCED200C019F3 /* FruitsDataRepositoryFakeImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
